@@ -1,0 +1,366 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    /* width: 1440px; */
+height: 72px;
+display: flex;
+flex-shrink: 0;
+background: #FFF;
+box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.12);
+
+}
+.navbar img{
+    width: 162.566px;
+height: 24px;
+flex-shrink: 0;
+margin: 24px 0px 24px 72px;
+}
+.img12345 img{
+    width: 20px;
+    height: 20px;
+}
+.search{
+    width: 360px;
+height: 42px;
+display: flex;
+flex-shrink: 0;
+border-radius: 21px;
+background: #F2F2F2;
+border: 2px solid transparent;
+margin-top: 16px;
+margin-bottom: 14px;
+margin-left: 230px;
+
+}
+.search img{
+    width: 22px;
+height: 22px;
+flex-shrink: 0;
+margin-top: 12px;
+margin-bottom: 11px;
+margin-left: 14px;
+}
+.search input{
+    color: #5C5C5C;
+font-family: IBM Plex Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin: 12px 68px 11px 10px;
+border: 0px solid transparent;
+background: #F2F2F2; 
+display: flex;
+}
+.create{
+    display: flex;
+    margin: 27px 96px 24px 200px ;
+}
+.create p{
+    /* display: flex; */
+    color: #2E2E2E;
+text-align: right;
+font-family: IBM Plex Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+}
+.create span{
+    color: #2F6CE5;
+font-family: IBM Plex Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.create img {
+    width: 24px;
+height: 24px;
+flex-shrink: 0;
+margin: 0px;
+padding-bottom: 2px;
+}
+main img{
+    width: 1349px;
+    height: 440px;
+    filter: brightness(0.5);
+}
+.text{
+    position: absolute;
+    top: 337px;
+    left: 200px;
+}
+.text h1{
+    color: #FFF;
+font-family: IBM Plex Sans;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.text p{
+    color: #FFF;
+font-family: IBM Plex Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+main hr{
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-top: 32px;
+}
+.nav2{
+display: flex;
+}
+.listing{
+    list-style-type: none;
+    display: flex;
+    margin-top: 14px;
+    margin-left: 200px;
+
+}
+.listing li{
+    margin-right: 20px;
+    color: #8A8A8A;
+font-family: IBM Plex Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.listing li span{
+    color: #000;
+font-family: IBM Plex Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.copy{
+    display: flex;
+    width: 125px;
+height: 36px;
+flex-shrink: 0;
+border-radius: 4px;
+background: #F2F2F2;
+border: 1px solid transparent;
+margin: 8px 0px 12px 320px;
+}
+.copy input{
+    color: #000;
+font-family: IBM Plex Sans;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+border: 1px solid transparent;
+margin: 8px 4px 8px 5px;
+width: 80px;
+background-color: #EDEEF0;
+}
+.copy img{
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    margin-top: 7px;
+}
+.contact{
+    display: flex;
+    width: 125px;
+height: 36px;
+flex-shrink: 0;
+border-radius: 4px;
+background: #F2F2F2;
+border: 1px solid transparent;
+margin: 8px 0px 12px 15px;
+}
+.contact button{
+    color: #fff;
+font-family: IBM Plex Sans;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+border: 1px solid transparent;
+margin: 8px 4px 8px 5px;
+width: 80px;
+background-color: #2F6CE5;
+}
+.contact img{
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    margin-top: 7px;
+    margin-left: 5px;
+    color: #FFF;
+}
+
+.post img{
+    width: 672px;
+height: 220px;
+flex-shrink: 0;
+border-radius: 4px 4px 0px 0px;
+background: lightgray 50% / cover no-repeat, #C4C4C4;
+margin-top: 28px;
+margin-left: 200px;
+}
+.content img{
+    width: 57px;
+    height: 25px;
+    color: #000;
+font-family: IBM Plex Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-top: 20px;
+}
+.content p{
+    color: #5C5C5C;
+font-family: IBM Plex Sans;
+font-size: 19px;
+font-style: normal;
+font-weight: 400;
+line-height: 134.167%; /* 25.492px */
+margin-left: 200px;
+margin-top: 10px;
+}
+.content2{
+    display: flex;
+    margin-left: 200px;
+}
+.content2 h1{
+    color: #000;
+font-family: IBM Plex Sans;
+font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: 134.167%; /* 29.517px */
+margin-top: 10px;
+}
+.content2 img{
+    width: 28px;
+height: 28px;
+/* transform: rotate(90deg); */
+flex-shrink: 0;
+margin-left: 140px;
+}
+.review{
+    display: flex;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+.review img{
+    width: 48px;
+height: 48px;
+flex-shrink: 0;
+
+} 
+.review h1{
+    color: #000;
+font-family: IBM Plex Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-top: 10px;
+margin-left: 5px;
+}
+.rev1{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 350px;
+}
+.rev1 img{
+    width: 18px;
+height: 18px;
+flex-shrink: 0;
+}
+.rev1 p{
+    color: #525252;
+text-align: right;
+font-family: IBM Plex Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-right: 35px;
+}
+
+.content3 p{
+    color: #000;
+font-family: IBM Plex Sans;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding: 0;
+margin: 0;
+}
+.content3 p img{
+    width: 20px;
+height: 20px;
+flex-shrink: 0;
+
+}
+.content button{
+    width: 622px;
+height: 38px;
+flex-shrink: 0;
+border-radius: 8px;
+border: 0.7px dashed #A9AEB8;
+background: #FFF;
+color: orangered;
+margin-top: 10px;
+margin-left: 220px;
+}
+.post2{
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.post2 p{
+    color: #000;
+    font-family: IBM Plex Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.post2 p img{
+    width: 18px;
+height: 18px;
+flex-shrink: 0;
+}
+.post2 p span{
+    margin-right: 80px;
+}
+.post2 hr{
+width: 200px;
+margin: 0;
+margin-top: 5px;
+}
+.post2 h4{
+    color: #000;
+font-family: IBM Plex Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+opacity: 0.5;
+}
+.post2 img{
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+ 
+}
+.leftside{
+    display: flex;
+    margin-top: 43px;
+}
